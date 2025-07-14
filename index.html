@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spreadsheet</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .total {
+            font-weight: bold;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .delete-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            cursor: pointer;
+        }
+        input {
+            border: none;
+        }
+        input[type="number"] {
+            width: 90%;
+        }
+        .add-candidate {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table id="scoreTable">
+        <tr>
+            <th>Name</th>
+            <th>Test Score (Max 30)</th>
+            <th>Exam Score (Max 70)</th>
+            <th>Total</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Candidate Name"></td>
+            <td><input type="number" class="score1" max="30" min="0" oninput="validateAndCalculate(this)"></td>
+            <td><input type="number" class="score2" max="70" min="0" oninput="validateAndCalculate(this)"></td>
+            <td class="total">0</td>
+            <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+    <button class="add-candidate" onclick="addRow()">Add Candidate</button>
+    <p><strong>Number of Candidates (All Rows):</strong> <span id="candidateCount">0</span></p>
+    <p><strong>Average Score:</strong> <span id="average">0</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
