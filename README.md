@@ -7,4 +7,4 @@ A simpe JavaScript Spreadsheet project
 
 Visit directly from your browser:
 
-https://rytvee.github.io/js-spreadsheet/
+https://rytvee.github.io/spreadsheet-app/
