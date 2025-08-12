@@ -21,8 +21,8 @@ You can visit directly from your browser:
 ```
 git clone https://github.com/rytvee/scoresheetapp.git
 cd scoresheetapp
-open index.html
 ```
+open `index.html`
 
 No setup or backend required — just load and use it.
 
