@@ -1,4 +1,4 @@
-# 📊 ScoresheetApp
+# 📊 Scoresheet App
 A clean, intuitive, and interactive scorekeeping web app built with **HTML**, **CSS**, and **JavaScript** — ideal for tracking test and exam scores in classrooms.
 
 ## 🌐 Live Demo
