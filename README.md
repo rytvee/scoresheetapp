@@ -35,7 +35,7 @@ scoresheetapp/
 └── assets/         ← Icon, demo gif
 ```
 
-## 📋 How to Use
+## 🖥️ How to Use
 
 ![App Demo](images/demo.gif) 
 
