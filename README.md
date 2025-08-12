@@ -23,9 +23,19 @@ You can visit directly from your browser:
 
 ## 🚀 Getting Started
 
-```bash
+```
 git clone https://github.com/rytvee/scoresheetapp.git
 cd scoresheetapp
 open index.html
+```
 
 No setup or backend required — just load and use it.
+
+## 📂 Project Structure
+```text
+scoresheetapp/
+├── index.html      ← Main HTML file
+├── styles.css      ← Styles and layout
+├── script.js       ← Logic for score tracking and DOM manipulation
+└── assets/         ← Icon, demo gif
+```
