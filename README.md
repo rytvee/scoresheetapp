@@ -17,13 +17,12 @@ You can visit directly from your browser:
 - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 ## 🚀 Getting Started
-
+- Clone the repository
 ```
 git clone https://github.com/rytvee/scoresheetapp.git
 cd scoresheetapp
 ```
-open `index.html`
-
+- Open `index.html`
 No setup or backend required — just load and use it.
 
 ## 📂 Project Structure
